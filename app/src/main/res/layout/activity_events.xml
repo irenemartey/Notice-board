@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".events">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="   DATE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="13dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="235dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="                EVENT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="22dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="149dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="191dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate3"
+        android:layout_width="154dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="268dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate4"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="354dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate5"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="446dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="215dp"
+        android:layout_height="39dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="217dp"
+        android:layout_height="36dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="211dp"
+        android:layout_height="36dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="216dp"
+        android:layout_height="38dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="209dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="451dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="            THANK YOU!!!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="607dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
